@@ -1,0 +1,7 @@
+[template]
+src   = "zookeeper.yml.tmpl"
+dest = "/opt/jmx_prometheus_httpserver/zookeeper.yml"
+keys = [
+ "/jmx/host",
+ "/jmx/port"
+]
